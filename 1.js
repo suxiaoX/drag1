@@ -1,6 +1,7 @@
 
 window.onload = function(){
 	var box = document.getElementById("box");
+	box.style.position = "absolute";
 	
 	box.onmousedown = function(ev){
 		var disX = ev.clientX-this.offsetLeft;
